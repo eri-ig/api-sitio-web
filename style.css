@@ -1,0 +1,39 @@
+
+.dynapuff-title {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(0, 132, 255);
+}
+.fixed-button {
+    position: absolute; 
+    bottom: 2px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 80%;
+  }
+  .dynapuff-titleCard {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 20;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 10;
+    text-align: center;
+}
+.dynapuff-logo {
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 20;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 10;
+      text-align: center;
+      color: rgb(0, 132, 255);
+  }
+
