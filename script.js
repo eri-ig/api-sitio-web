@@ -27,7 +27,7 @@ btnBuscar.addEventListener('click', (event) => {// al hacer click en el boton bu
       animes.data.forEach(anime => {//se crea una card
         const animeCard = `
           <div class="card" style="width: 20rem; margin: 10px; overflow-y: auto;">
-            <img src="${anime.images.jpg.image_url}" class="card-img-top compact-image" style="height: 0px; width: auto;"alt="${anime.title}">
+            <img src="${anime.images.jpg.image_url}" class="card-img-top compact-image" style="height: 200px; width: auto;"alt="${anime.title}">
             <div class="card-body" style="height: 200px;">
               <h6 class="card-title dynapuff-titleCard">${anime.title}</h6>
               <div class="card-text-wrapper" style="max-height: 100px; overflow-y: auto;">
